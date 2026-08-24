@@ -1,0 +1,29 @@
+{
+  "expected_flow": [
+    {
+      "step": 1,
+      "stage": "mapping_review_gate_node",
+      "status": "WAITING_FOR_REVIEW",
+      "review_type": "MAPPING_AMBIGUITY",
+      "source_column": "contact_value",
+      "correct_target_field": "email",
+      "why": "The source column name is generic and could represent multiple contact-related target fields."
+    },
+    {
+      "step": 2,
+      "stage": "data_review_gate_node",
+      "status": "WAITING_FOR_REVIEW",
+      "review_type": "INVALID_NUMBER",
+      "employee_id": "E6103",
+      "field": "annual_salary",
+      "bad_value": "not disclosed",
+      "suggested_correction": "1050000",
+      "why": "The mapping is clear, but the value cannot be safely converted into a numeric salary."
+    }
+  ],
+  "expected_counts_after_mapping_resolution": {
+    "canonical_records": 5,
+    "data_reviews": 1,
+    "records_ready_after_salary_correction": 5
+  }
+}

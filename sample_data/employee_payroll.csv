@@ -1,0 +1,4 @@
+worker_id,dept_name,annual_ctc,hike,currency,pay_frequency,bank_account
+E3001,Engineering,900000,5,INR,ANNUAL,1234567890123456
+E3002,Finance,1200000,7,INR,ANNUAL,2345678901234567
+E3003,Product,1000000,6,INR,ANNUAL,3456789012345678

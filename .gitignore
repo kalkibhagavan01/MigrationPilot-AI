@@ -1,0 +1,41 @@
+# Local/private implementation notes
+docs/UTILITY_CODE_WALKTHROUGH.md
+docs/MANAGER_APPLICATION_THEORY.md
+docs/Gap_Analysis.md
+docs/design.md
+docs/architecture.md
+docs/Demo_Script.md
+docs/PHASE_WISE_PLAN.md
+chatcontext.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Node
+node_modules/
+dist/
+.vite/
+*.tsbuildinfo
+frontend/vite.config.js
+frontend/vite.config.d.ts
+
+# Environment and local data
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite
+*.sqlite3
+storage/
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/

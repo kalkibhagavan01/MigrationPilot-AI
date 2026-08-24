@@ -1,0 +1,5 @@
+Emp No,Employee Name,DOB,Start Date,Department,Employment Type,Manager Id
+E3001,Arun Clean,1990-01-10,2021-06-01,Engineering,Permanent,E900
+E3002,Bala Bad Manager,1988-02-02,2022-07-01,Finance,Permanent,E3002
+E3003,Chitra Clean,1994-03-15,2023-08-20,Product,Contract,E901
+E3003,Chitra Clean,1994-03-15,2023-08-20,Operations,Contract,E901

@@ -1,0 +1,15 @@
+{
+  "mapping_review_columns": [],
+  "data_review_cases": [
+    {
+      "employee_id": "E5001",
+      "field": "annual_salary",
+      "issue": "Data cleaning cannot safely parse annual_salary value 'not disclosed'."
+    },
+    {
+      "employee_id": "E5002",
+      "field": "email",
+      "issue": "Two source columns map to email but disagree: email and mail_id contain different addresses."
+    }
+  ]
+}

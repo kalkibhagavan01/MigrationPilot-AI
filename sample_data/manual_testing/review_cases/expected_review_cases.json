@@ -1,0 +1,20 @@
+{
+  "mapping_review_columns": [],
+  "data_review_cases": [
+    {
+      "employee_id": "E4001",
+      "field": "department",
+      "issue": "Two source columns map to department but disagree: department=Engineering, dept_name=Product."
+    },
+    {
+      "employee_id": "E4002",
+      "field": "email",
+      "issue": "Two source columns map to email but disagree: email and mail_id contain different addresses."
+    },
+    {
+      "employee_id": "E4003",
+      "field": "annual_salary",
+      "issue": "Two source columns map to annual_salary but disagree: annual_salary and annual_ctc contain different amounts."
+    }
+  ]
+}
